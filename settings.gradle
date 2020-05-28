@@ -1,0 +1,2 @@
+rootProject.name='Retrofit2CoroutinesCallAdapter'
+include ':app'

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Retrofit2CoroutinesCallAdapter</string>
+    <string name="success_request">Success Request</string>
+    <string name="failure_request">Failure Request</string>
+</resources>
