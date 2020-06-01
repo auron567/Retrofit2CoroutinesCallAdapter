@@ -47,6 +47,7 @@ fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
 - [OkHttp3](https://github.com/square/okhttp)
 - [Koin](https://github.com/InsertKoinIO/koin)
 - [Timber](https://github.com/JakeWharton/timber)
+- [MockK](https://github.com/mockk/mockk)
 ## Usage
 To use this sample application you need to register your own [TMDb API key](https://www.themoviedb.org/documentation/api) and add it to the file [`NetworkModule.kt`](app/src/main/java/com/example/retrofit2coroutinescalladapter/di/NetworkModule.kt):
 ```kt
