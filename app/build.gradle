@@ -43,6 +43,9 @@ dependencies {
     def koin_version = '2.1.5'
     def timber_version = '4.7.1'
     def junit_version = '4.13'
+    def mockk_version = '1.10.0'
+    def archtesting_version = '2.1.0'
+    def unitils_version = '3.4.6'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     // Kotlin
@@ -66,4 +69,8 @@ dependencies {
     implementation "com.jakewharton.timber:timber:$timber_version"
     // Test
     testImplementation "junit:junit:$junit_version"
+    testImplementation "io.mockk:mockk:$mockk_version"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+    testImplementation "androidx.arch.core:core-testing:$archtesting_version"
+    testImplementation "org.unitils:unitils-core:$unitils_version"
 }
