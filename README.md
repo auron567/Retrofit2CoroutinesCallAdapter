@@ -38,6 +38,8 @@ fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
         .build()
 }
 ```
+## Architecture
+This sample application uses [Architecture Components](https://developer.android.com/topic/libraries/architecture) to separate the UI code in `MainActivity` from the application logic in `MainViewModel`. `MovieRepository` (and its concrete `MovieRepositoryImpl` implementation) provides a bridge between the `ViewModel` and `MovieService`, which uses Retrofit to return a list of `Movie` objects.
 ## Libraries
 - [Kotlin](https://kotlinlang.org/) + [Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
 - Jetpack
